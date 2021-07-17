@@ -215,7 +215,7 @@ li {
 
 .hero-content {
   position: absolute;
-  top: -50%;
+  top: 50%;
   transform: translate(25%, -50%);
   -webkit-transform: translate(25%, -50%);
   -moz-transform: translate(25%, -50%);
