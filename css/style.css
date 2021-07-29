@@ -281,7 +281,7 @@ li {
 }
 
 @media only screen and (max-width: 1200px) {
-  .header.hero-img {
+  .header .hero-img {
     right: -20%;
   }
 
@@ -318,9 +318,10 @@ li {
     min-height: 100vh;
   }
 
-  .header.hero-img {
+  .header .hero-img {
     bottom: -15%;
     right: 0;
+    height: 45rem;
   }
 
   .hero-content {
