@@ -1134,3 +1134,22 @@ th:last-child {
     display: none;
   }
 }
+
+.pro-quantity button {
+  margin: 0;
+  width: 25px;
+  padding: 0px;
+  box-shadow: 0 0 3px #b1b1b1;
+  font-size: 24px;
+  border-radius: 50%;
+  border: none;
+  height: 25px;
+  cursor: pointer;
+}
+
+.pro-quantity input {
+  height: 30px;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+}

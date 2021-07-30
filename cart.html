@@ -44,7 +44,7 @@
 
             <ul class="nav-list">
               <li class="nav-item">
-                <a href="#home" class="nav-link scroll-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
                 <a href="product.html" class="nav-link">Products</a>
@@ -97,8 +97,12 @@
                 </div>
               </div>
             </td>
-            <td><input type="number" value="1" min="1"></td>
-            <td>$50.00</td>
+            <td class="pro-quantity">
+              <button class="remove" onclick="remove()">-</button>
+              <input value="0" id="quantity"></input>
+              <button class="add" onclick="add()">+</button>
+            </td>
+            <td class="pro-price"></td>
           </tr>
           
           <tr>
