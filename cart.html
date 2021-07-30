@@ -22,11 +22,9 @@
       rel="stylesheet"
     />
 
-    <title>Catalan | E-commerce Website</title>
+    <title>Your Cart</title>
   </head>
   <body>
-    <!--================= HEADER =================-->
-    <header class="header" id="home">
       <!--================= NAVBAR =================-->
       <nav class="nav">
         <div class="navbar container">
@@ -77,20 +75,31 @@
           </div>
         </div>
       </nav>
-      <!--================= HERO SECTION =================-->
-      <!-- Hero img -->
-      <img src="img/banner.png" alt="" class="hero-img" />
-
-      <div class="hero-content">
-        <h2><span class="discount">60% </span>SALE OFF</h2>
-        <h1>
-          <span>Summer Vibes</span>
-          <span>Mode on</span>
-        </h1>
-
-        <a href="#" class="btn">shop now</a>
+      
+      <div class="container-md cart">
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>subtotal</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="./img/pic1.jpg" alt="">
+                <div>
+                  <p>Boy's T-shirt</p>
+                  <span>Price: $50.00</span>
+                  <br>
+                  <a href="#">remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>$50.00</td>
+          </tr>
+        </table>
       </div>
-    </header>
 
     <!--================= FOOTER =================-->
     <footer id="footer" class="section footer">
