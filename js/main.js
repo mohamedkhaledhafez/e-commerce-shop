@@ -70,7 +70,7 @@ gsap.from(".hero-content h1", { opacity: 0, duration: 1, delay: 2.5, y: -45 });
 gsap.from(".hero-content a", { opacity: 0, duration: 1, delay: 3.5, y: 50 });
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////// Count subtotal & total price
-let count = 0;
+let count = 1;
 
 // select quantity of the products
 var quantity = document.getElementById("quantity");
@@ -83,8 +83,8 @@ function add() {
 // Decrease the quantity of products
 function remove() {
   quantity.value = --count;
-  if (count <= 0) {
-    quantity.value = 0;
+  if (count < 1) {
+    quantity.value = 1;
     count = 0;
   }
 }
